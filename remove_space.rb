@@ -1,4 +1,4 @@
-def no_space(x)
+def no_space(x) # The method to remove spaces was in the kata by default
   new_word = []
 
   x.split.each do |char|
@@ -7,4 +7,4 @@ def no_space(x)
     end
 end
   new_word.join("")
-end
+end # This end is to close the method no_space(x)
