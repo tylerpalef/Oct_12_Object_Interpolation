@@ -6,5 +6,8 @@ def no_space(x) # The method to remove spaces was in the kata by default
       new_word << char # I want to shovel everything besides spaces into the new array we created new_word
     end # Ending my if statement
 end # ending my each do loop
-  new_word.join("") # Finally used .join, to reverse the effect of .split on the code 
+  new_word.join("") # Finally used .join, to reverse the effect of .split on the code
 end # This end is to close the method no_space(x)
+
+
+puts no_space('this is a test')
