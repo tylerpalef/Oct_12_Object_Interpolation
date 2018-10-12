@@ -1,5 +1,5 @@
 def no_space(x) # The method to remove spaces was in the kata by default
-  new_word = []
+  new_word = [] # Need to create a new empty array to move the broken up string into. Possibly could have used the map method instead.
 
   x.split.each do |char|
     if char != " "
