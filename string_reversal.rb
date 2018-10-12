@@ -3,4 +3,4 @@ def reverse_string(str)
 end
 
 
-reverse_string('this is a test')
+puts reverse_string('this is a test')
