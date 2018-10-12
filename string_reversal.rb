@@ -7,6 +7,9 @@ def reverse_string_without_reverse(str)
 
   str.split.each do |letter| # Splitting the string into an array
     new_word << letter
+    new_word.each do |swap| # This line is erroing out 
+      new_word[swap] = new_word[swap+1]
+    end
   end
   new_word.join(" ") # This is to combine the array with spaces between each word
 end
